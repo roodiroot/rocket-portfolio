@@ -1,0 +1,959 @@
+@font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    src: url("../fonts/Montserrat-Bold.woff") format("woff"), url("../fonts/Montserrat-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    src: url("../fonts/Montserrat-Italic.woff") format("woff"), url("../fonts/Montserrat-Italic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    src: url("../fonts/Montserrat-Light.woff") format("woff"), url("../fonts/Montserrat-Light.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    src: url("../fonts/Montserrat-Medium.woff") format("woff"), url("../fonts/Montserrat-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    src: url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    src: url("../fonts/Montserrat-SemiBold.woff") format("woff"), url("../fonts/Montserrat-SemiBold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: Montserrat;
+    font-display: swap;
+    src: url("../fonts/Montserrat-ThinItalic.woff") format("woff"), url("../fonts/Montserrat-ThinItalic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: MontserratAlternates;
+    font-display: swap;
+    src: url("../fonts/MontserratAlternates-Black.woff") format("woff"), url("../fonts/MontserratAlternates-Black.woff2") format("woff2");
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: MontserratAlternates;
+    font-display: swap;
+    src: url("../fonts/MontserratAlternates-BlackItalic.woff") format("woff"), url("../fonts/MontserratAlternates-BlackItalic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: MontserratAlternates;
+    font-display: swap;
+    src: url("../fonts/MontserratAlternates-Bold.woff") format("woff"), url("../fonts/MontserratAlternates-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: MontserratAlternates;
+    font-display: swap;
+    src: url("../fonts/MontserratAlternates-BoldItalic.woff") format("woff"), url("../fonts/MontserratAlternates-BoldItalic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: MontserratAlternates;
+    font-display: swap;
+    src: url("../fonts/MontserratAlternates-ExtraBold.woff") format("woff"), url("../fonts/MontserratAlternates-ExtraBold.woff2") format("woff2");
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: MontserratAlternates;
+    font-display: swap;
+    src: url("../fonts/MontserratAlternates-ExtraBoldItalic.woff") format("woff"), url("../fonts/MontserratAlternates-ExtraBoldItalic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: MontserratAlternates;
+    font-display: swap;
+    src: url("../fonts/MontserratAlternates-ExtraLight.woff") format("woff"), url("../fonts/MontserratAlternates-ExtraLight.woff2") format("woff2");
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: MontserratAlternates;
+    font-display: swap;
+    src: url("../fonts/MontserratAlternates-ExtraLightItalic.woff") format("woff"), url("../fonts/MontserratAlternates-ExtraLightItalic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: MontserratAlternates;
+    font-display: swap;
+    src: url("../fonts/MontserratAlternates-Italic.woff") format("woff"), url("../fonts/MontserratAlternates-Italic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: MontserratAlternates;
+    font-display: swap;
+    src: url("../fonts/MontserratAlternates-Light.woff") format("woff"), url("../fonts/MontserratAlternates-Light.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: MontserratAlternates;
+    font-display: swap;
+    src: url("../fonts/MontserratAlternates-LightItalic.woff") format("woff"), url("../fonts/MontserratAlternates-LightItalic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: MontserratAlternates;
+    font-display: swap;
+    src: url("../fonts/MontserratAlternates-Medium.woff") format("woff"), url("../fonts/MontserratAlternates-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: MontserratAlternates;
+    font-display: swap;
+    src: url("../fonts/MontserratAlternates-MediumItalic.woff") format("woff"), url("../fonts/MontserratAlternates-MediumItalic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: MontserratAlternates;
+    font-display: swap;
+    src: url("../fonts/MontserratAlternates-Regular.woff") format("woff"), url("../fonts/MontserratAlternates-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: MontserratAlternates;
+    font-display: swap;
+    src: url("../fonts/MontserratAlternates-SemiBold.woff") format("woff"), url("../fonts/MontserratAlternates-SemiBold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: MontserratAlternates;
+    font-display: swap;
+    src: url("../fonts/MontserratAlternates-SemiBoldItalic.woff") format("woff"), url("../fonts/MontserratAlternates-SemiBoldItalic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: MontserratAlternates;
+    font-display: swap;
+    src: url("../fonts/MontserratAlternates-Thin.woff") format("woff"), url("../fonts/MontserratAlternates-Thin.woff2") format("woff2");
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: MontserratAlternates;
+    font-display: swap;
+    src: url("../fonts/MontserratAlternates-ThinItalic.woff") format("woff"), url("../fonts/MontserratAlternates-ThinItalic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: TitilliumWeb;
+    font-display: swap;
+    src: url("../fonts/TitilliumWeb-Black.woff") format("woff"), url("../fonts/TitilliumWeb-Black.woff2") format("woff2");
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: TitilliumWeb;
+    font-display: swap;
+    src: url("../fonts/TitilliumWeb-Bold.woff") format("woff"), url("../fonts/TitilliumWeb-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: TitilliumWeb;
+    font-display: swap;
+    src: url("../fonts/TitilliumWeb-BoldItalic.woff") format("woff"), url("../fonts/TitilliumWeb-BoldItalic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: TitilliumWeb;
+    font-display: swap;
+    src: url("../fonts/TitilliumWeb-ExtraLight.woff") format("woff"), url("../fonts/TitilliumWeb-ExtraLight.woff2") format("woff2");
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: TitilliumWeb;
+    font-display: swap;
+    src: url("../fonts/TitilliumWeb-ExtraLightItalic.woff") format("woff"), url("../fonts/TitilliumWeb-ExtraLightItalic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: TitilliumWeb;
+    font-display: swap;
+    src: url("../fonts/TitilliumWeb-Italic.woff") format("woff"), url("../fonts/TitilliumWeb-Italic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: TitilliumWeb;
+    font-display: swap;
+    src: url("../fonts/TitilliumWeb-Light.woff") format("woff"), url("../fonts/TitilliumWeb-Light.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: TitilliumWeb;
+    font-display: swap;
+    src: url("../fonts/TitilliumWeb-LightItalic.woff") format("woff"), url("../fonts/TitilliumWeb-LightItalic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: TitilliumWeb;
+    font-display: swap;
+    src: url("../fonts/TitilliumWeb-Regular.woff") format("woff"), url("../fonts/TitilliumWeb-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: TitilliumWeb;
+    font-display: swap;
+    src: url("../fonts/TitilliumWeb-SemiBold.woff") format("woff"), url("../fonts/TitilliumWeb-SemiBold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: TitilliumWeb;
+    font-display: swap;
+    src: url("../fonts/TitilliumWeb-SemiBoldItalic.woff") format("woff"), url("../fonts/TitilliumWeb-SemiBoldItalic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: icomoon;
+    font-display: swap;
+    src: url("../fonts/icomoon.woff") format("woff"), url("../fonts/icomoon.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  :focus,
+  :active {
+    outline: none;
+  }
+  
+  a:focus,
+  a:active {
+    outline: none;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+  
+  input,
+  button,
+  textarea {
+    font-family: inherit;
+  }
+  
+  input::-ms-clear {
+    display: none;
+  }
+  
+  button {
+    background-color: inherit;
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+  
+  a,
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  a:active, 
+  /* активная/посещенная ссылка */
+a:hover,  /* при наведении */
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.863);
+}
+a {
+  cursor: pointer;
+  display: inline-block;
+}
+  
+  ul li {
+    list-style: none;
+  }
+  
+  img {
+    vertical-align: top;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+  
+  [class*=icon-]:before {
+    font-family: "icomoon";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  [class*=icon-]:before {
+    display: inline-block;
+  }
+  
+  .icon-logo:before {
+    content: "\e905";
+  }
+  
+  .icon-instagramBorisov:before {
+    content: "\e906";
+  }
+  
+  .icon-telegramBorisov:before {
+    content: "\e907";
+  }
+  
+  .icon-vkontakteBorisov:before {
+    content: "\e908";
+  }
+  
+  .icon-instagram-logo-1-Traced:before {
+    content: "\e900";
+  }
+  
+  .icon-pinterest-1-Traced:before {
+    content: "\e901";
+  }
+  
+  .icon-vk-1-1-Traced:before {
+    content: "\e902";
+  }
+  
+  .icon-Arrow-1:before {
+    content: "\e903";
+    color: #fff;
+  }
+  
+  .icon-Arrow-2:before {
+    content: "\e904";
+    color: #fff;
+  }
+  
+  [class*=__contanier] {
+    margin: 0 auto;
+    max-width: 1143px;
+    padding: 0 15px;
+  }
+  
+  html {
+    font-size: 13px;
+  }
+  
+  body {
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #FFFFFF;
+    background: -o-linear-gradient(22.78deg, #01060B 0%, #3F1D40 103.8%) fixed;
+    background: linear-gradient(67.22deg, #01060B 0%, #3F1D40 103.8%) fixed;
+  }
+  
+  .mainContain {
+    max-width: 1300px;
+    padding: 1rem;
+    height: 100%;
+    min-height: 650px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  .header {
+    margin-top: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .header .headerLogoBlock {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 0.7rem;
+  }
+  
+  .header .headerLogo {
+    font-size: 2.5rem;
+    color: #F80A0A;
+  }
+  
+  .header .headerText {
+    font-weight: 300;
+    font-size: 1.3rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  
+  .main {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .mainDescripBlock {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 50%;
+            flex: 1 1 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 3rem;
+    padding: 5rem 2rem;
+  }
+  
+  .mainDescripBlock .mainTopLine {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+  }
+  
+  .mainDescripBlock .mainName {
+    font-family: "MontserratAlternates";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3rem;
+    line-height: 126.9%;
+    letter-spacing: 0.12em;
+    margin-bottom: 3rem;
+  }
+  
+  .profestionBlock {
+    max-width: 33rem;
+  }
+  
+  .profestionBlock .profestionBlockPart {
+    display: none;
+  }
+  
+  .profestionBlock .profestionBlockPart.active {
+    display: block;
+  }
+  
+  .profestionBlock .profestionBlockPartName {
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-bottom: 1.1em;
+    letter-spacing: 0.12em;
+  }
+  
+  .profestionBlock .profestionBlockPartDescription {
+    font-size: 0.9rem;
+    line-height: 2.5em;
+    letter-spacing: 0.12em;
+  }
+  
+  .counterBlock .counterBlockNumbers {
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 0.7em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 0.6rem;
+  }
+  
+  .counterBlock .counterBlockFact {
+    font-size: 4rem;
+    letter-spacing: 0.1em;
+  }
+  
+  .counterBlock .counterBlockTotal {
+    font-size: 2rem;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    margin-top: 0.5rem;
+    letter-spacing: 0.1em;
+  }
+  
+  .counterBlock .counterBlockArrow {
+    display: inline-block;
+    width: 4.5rem;
+    height: 4.5rem;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  .counterBlock .counterBlockArrow::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  
+  .counterBlock .counterBlockArrow:first-child {
+    margin-right: 0.6rem;
+  }
+  
+  .mainCanvasBlock {
+    position: relative;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 50%;
+            flex: 1 1 50%;
+    /* background: #000; */
+  }
+  
+  .mainCanvasBlock .mainCanvasContainer {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    right: 1rem;
+    bottom: 10rem;
+    /* background: rgb(130, 205, 9); */
+  }
+  
+  .dashboard {
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    padding: 0.5rem;
+    -webkit-transform: translate(-50%, -100%);
+        -ms-transform: translate(-50%, -100%);
+            transform: translate(-50%, -100%);
+    width: 32.3rem;
+    height: 12.4rem;
+    border-radius: 3.8rem;
+    background: -o-linear-gradient(291.05deg, #D9D9D9 -116.53%, rgba(217, 217, 217, 0) 103.93%);
+    background: linear-gradient(158.95deg, #D9D9D9 -116.53%, rgba(217, 217, 217, 0) 103.93%);
+    -webkit-box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.13);
+            box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.13);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: "TitilliumWeb", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.055em;
+  }
+  
+  .dashboard .dashBoardTop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    gap: 2.2rem;
+  }
+  
+  .no-webp .dashboard .dashBoardBlock {
+    background: url("../img/dash/dashboard.png") center no-repeat; }
+  
+  .dashboard .dashBoardBlock {
+    width: 100px;
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .dashboard .dashBoardBlock .valueName {
+    margin-top: 25px;
+  }
+  
+  .dashboard .dashBoardBlock .valueNumber {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  
+  .dashboard .stageDashboard {
+    font-size: 19px;
+  }
+  
+  .spaceButton {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: -50%;
+    -webkit-transform: translate(100%, -50%);
+        -ms-transform: translate(100%, -50%);
+            transform: translate(100%, -50%);
+    z-index: 3;
+    display: inline-block;
+    width: 15rem;
+    height: 10rem;
+    border-radius: 3rem;
+    background: -o-linear-gradient(291.05deg, #D9D9D9 -116.53%, rgba(217, 217, 217, 0) 103.93%);
+    background: linear-gradient(158.95deg, #D9D9D9 -116.53%, rgba(217, 217, 217, 0) 103.93%);
+    border: 2px solid rgba(255, 255, 255, 0.78);
+    -webkit-box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.13);
+            box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.13);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+  }
+  
+  .spaceButton span {
+    font-family: "TitilliumWeb";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 0%;
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
+  }
+  
+  .spaceButton:hover {
+    background: -o-linear-gradient(291.05deg, #F80A0A -116.53%, rgba(196, 191, 191, 0) 103.93%);
+    background: linear-gradient(158.95deg, #F80A0A -116.53%, rgba(196, 191, 191, 0) 103.93%);
+    border: 2px solid rgba(248, 10, 10, 0.78);
+    color: #F80A0A;
+  }
+  .spaceButton:active {
+    background: -o-linear-gradient(291.05deg, #a91fa6 -116.53%, rgba(196, 191, 191, 0) 103.93%);
+    background: linear-gradient(158.95deg, #F80A0A -116.53%, rgba(196, 191, 191, 0) 103.93%);
+    border: 2px solid rgba(248, 10, 10, 0.78);
+    color: #F80A0A;
+  }
+  
+  .spaceButton.active {
+    background: -o-linear-gradient(291.05deg, #F80A0A -116.53%, rgba(196, 191, 191, 0) 103.93%);
+    background: linear-gradient(158.95deg, #F80A0A -116.53%, rgba(196, 191, 191, 0) 103.93%);
+    border: 2px solid rgba(248, 10, 10, 0.78);
+    color: #F80A0A;
+  }
+
+  /* ========================= SOCIAL LINKS ============================ */
+  .headerCheckBoxBlock .headerSocialBlock {
+    display: flex;
+    gap: 4rem;
+  }
+  .headerCheckBoxBlock .socialLink {
+    font-size: 1.3rem;
+    -webkit-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+  }
+  
+  .headerCheckBoxBlock .socialLink:hover {
+    color: #2242b7;
+  }
+  
+  .footer {
+    margin-bottom: 3rem;
+  }
+  
+  .footer .footerSocialBlock {
+    display: flex;
+    gap: 4rem;
+  }
+  
+  .footer .socialLink {
+    font-size: 2rem;
+    -webkit-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+  }
+  
+  .footer .socialLink:hover {
+    color: #F80A0A;
+  }
+  /* //====================== ALERT =================== */
+  .alert {
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    width: 22rem;
+    height: 10rem;
+    background: rgba(0, 0, 0, 0.639);
+    backdrop-filter: blur(4px);
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    z-index: 4;
+    
+    top: 0;
+    left:  0;
+    right: 0;
+    bottom: 0;
+
+    transition: all .2s linear;
+  }
+  .alertBlock {
+    width: 100%;
+    max-width: 35rem;
+    height: 20rem;
+
+    background: linear-gradient(158.95deg, #D9D9D9 -116.53%, rgba(217, 217, 217, 0) 103.93%);
+    border: 2px solid rgba(255, 255, 255, 0.78);
+    border-radius: 27px;
+
+    padding: 2.5rem 3rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+  .buttonAlert{
+    width: 21rem;
+    height: 7rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F80A0A;
+    cursor: pointer;
+    transition: 0.2s linear ;
+
+    background: linear-gradient(158.95deg, #F80A0A -116.53%, rgba(196, 191, 191, 0) 103.93%);
+    border: 2px solid rgba(248, 10, 10, 0.78);
+    box-shadow: 10px 10px 21px rgba(210, 22, 23, 0.06);
+    border-radius: 2rem;
+
+    margin: 0 auto;
+
+    font-family: 'TitilliumWeb';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 250%;
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
+
+    
+  }
+  .headerAlert {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
+  }
+  .buttonAlert:hover{
+    background: rgb(214, 51, 51);
+  }
+  .alert.active{
+      pointer-events: auto;
+      opacity: 1;
+      visibility: visible;
+  }
+
+    /* //====================== MEDIA =================== */
+  
+  @media (max-width: 1200px) {
+    html {
+      font-size: calc(8px + 4 * (100vw - 320px) / 880);
+    }
+  }
+  
+  @media (max-width: 770px) {
+    .main {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+    }
+    .mainDescripBlock .mainTopLine {
+      flex: 0 0 auto;
+    }
+    .mainDescripBlock {
+      flex: 0 0 auto;
+      padding-bottom: 0;
+    }
+  
+    .mainCanvasBlock {
+      /* min-height: 100%; */
+      flex: 1 1 50%;
+    }
+    .mainCanvasContainer {
+      transform: translateY(-64px);
+    }
+  
+    .dashboard {
+      background: inherit;
+      width: 100%;
+      top: 83%;
+    }
+    .dashboard .dashBoardTop {
+      width: 100%;
+      justify-content: space-between;
+    }
+    .dashboardBottom {
+      display: none;
+    }
+  
+    .spaceButton {
+      top: 91%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+    }
+    .footer {
+      display: none;
+    }
+  
+    /* .footer .footerSocialBlock {
+      padding-top: 5rem;
+    } */
+  }
+  
+  .webp .dashboard .dashBoardBlock { background: url(../img/dash/dashboard.png) center no-repeat; }
